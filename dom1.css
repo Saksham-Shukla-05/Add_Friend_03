@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+button{
+    cursor: pointer;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: lightsalmon;
+}
+
+#card{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    border-bottom: 10px solid black;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+#card img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+#card h1{
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#card h3{
+    font-size: 25px;
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#addfriend{
+    padding: 5px;
+    margin-top: 5px;
+    background-color: rgb(0, 137, 242);
+    border-radius: 5px;
+    font-size: 17px;
+}
+#Msg-me{
+    padding: 5px;
+    margin-top: 5px;
+    background-color: rgb(125, 239, 159);
+    border-radius: 5px;
+    font-size: 17px;
+    display: none;
+}
+
+#confirm{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    background-color: rgb(146, 189, 186);
+    border-radius: 10px;
+    display: none;
+}
+
+#cn-p{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    font-size: 20px;
+    transform: translate(0,-50%);
+}
+#cn-btn{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.cn-btn{
+    font-size:20px ;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: rgb(175, 163, 232);
+}
